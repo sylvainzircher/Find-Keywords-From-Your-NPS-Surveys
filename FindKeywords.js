@@ -174,6 +174,7 @@ function runStats() {
                               .build());
   
   summarySheet.setConditionalFormatRules(conditionalFormatRules);
+  summarySheet.getRange("A1").activate();
  
 };
 
